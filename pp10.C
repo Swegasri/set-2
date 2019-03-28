@@ -1,16 +1,16 @@
 #include <stdio.h>
 int main()
 {
-  int a,b,c=0;
-  scanf("%d",&a);
-  b=a;
-  while(b!=0)
+  int p,q,r=0;
+  scanf("%d",&p);
+  q=p;
+  while(q!=0)
   {
-    c*=10;
-    c+=(b%10);
-    b/=10;
+    r*=10;
+    r+=(q%10);
+    q/=10;
   }
-  if(a==c)
+  if(q==r)
   {
     printf("yes");
   }
