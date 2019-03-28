@@ -10,7 +10,7 @@ int main()
     r+=(q%10);
     q/=10;
   }
-  if(q==r)
+  if(p==r)
   {
     printf("yes");
   }
