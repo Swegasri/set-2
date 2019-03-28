@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main(void)
 {
-int num,i,flag=0;
+int num,k,flag=0;
 scanf("%d",&num);
-for(i=2;i<=num/2;i++)
+for(k=2;k<=num/2;k++)
 {
-if(num%i==0)
+if(num%k==0)
 {
 flag=1;
 break;
