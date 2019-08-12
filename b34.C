@@ -6,7 +6,9 @@ int main()
     int l=1,i;
     
     scanf("%[^\n]",c);
-     for(i=0;c[i]!='\0';i++)
+    
+    
+    for(i=0;c[i]!='\0';i++)
  {
      if(c[i]=='.')
      {
