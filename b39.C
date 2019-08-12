@@ -3,15 +3,15 @@
 int main(void) 
 {
 	int array[20];
-	int a,i,max=array[0];
+	int b,i,max=array[0];
 	printf("enter the number of elements:");
-	scanf("%d",&a);
+	scanf("%d",&b);
 	printf("\n enter the array elements:");
-	for(i=0;i<a;i++)
+	for(i=0;i<b;i++)
 	{
 		scanf("%d",&array[i]);
 	}
-	for(i=0;i<a;i++)
+	for(i=0;i<b;i++)
 	{
 		if(array[i]>max)
 		{
